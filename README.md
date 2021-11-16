@@ -25,4 +25,13 @@ or
 ```shell
 pip install -r requirements.txt
 ```
-Sign up [Pushover](https://pushover.net/) and create application for API token.
+Sign up [Pushover](https://pushover.net/) and create application for API token and User token.
+
+Download zip of this repo for Raspberry Pi:
+
+![Download zip](https://user-images.githubusercontent.com/13942195/142032300-4aa0cc3d-84c8-4ba0-962f-1a33072dd566.png)
+
+## Run on Raspberry Pi
+```shell
+python main_pi.py
+```
