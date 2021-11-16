@@ -19,7 +19,7 @@ Assistant Technician: **Luca Jones**
 ## Setup
 Install python-pushover and pygame library from Python package manager:
 ```shell
-python -m pip install -U python-pushover pygame
+python -m pip install -U python-pushover gpiozero pygame
 ```
 or
 ```shell
