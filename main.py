@@ -4,7 +4,6 @@ pygame.init()
 
 client = Client("ur7vskev12zazdf6twu9dt5a4wy7pf", api_token="aqdqexpqcpagiazt1a386xjnp4mgw4")
 
-
 while True:
     text = input("Debug Command:")
     if text == "bathroom":
