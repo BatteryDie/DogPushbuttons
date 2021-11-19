@@ -17,7 +17,7 @@ Assistant Technician: **Luca Jones**
 ![Screenshot 2021-11-15 231714](https://user-images.githubusercontent.com/13942195/141911259-a4ff4fc9-f957-4ac4-a3b7-12223d736c2f.png)
 
 ## Setup
-Install python-pushover and pygame library from Python package manager:
+Install Pushover for Python, gpiozero and PyGame modules from Python package manager:
 ```shell
 python -m pip install -U python-pushover gpiozero pygame
 ```
