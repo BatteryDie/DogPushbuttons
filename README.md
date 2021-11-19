@@ -21,10 +21,6 @@ Install python-pushover and pygame library from Python package manager:
 ```shell
 python -m pip install -U python-pushover gpiozero pygame
 ```
-or
-```shell
-pip install -r requirements.txt
-```
 Sign up [Pushover](https://pushover.net/) and create application for API token and User token.
 
 Download zip of this repo for Raspberry Pi:
