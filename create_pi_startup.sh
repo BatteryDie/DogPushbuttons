@@ -2,19 +2,19 @@
 currentFile = realpath "$0"
 echo currentFile
 PS3='What kind of startup you would like to install?: '
-options=("lxde" "crontab" "bashrc" "Quit")
+options=("lxde" "crontab" "remove" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
         "lxde")
-            echo "Exec=lxterminal --command”/bin/bash -c ‘sudo python3 /home/pi/DogPushbuttons/main_pi.py; /bin/bash’”" > ~/.config/autostart/DogPushbuttons.desktop
-            echo "startup for lxde is installed."
+            echo "Exec=lxterminal --command”/bin/bash -c ‘sudo python3 $currentFile/main_pi.py; /bin/bash’”" > ~/.config/autostart/DogPushbuttons.desktop
+            echo "startup for lxde is installed. It will start in LXDE terminal when desktop is loaded"
             ;;
         "crontab")
-            echo "you chose choice 2"
+            echo "startup for crontab is installed. It will start during "
             ;;
-        "bashrc")
-            echo "you chose choice $REPLY which is $opt"
+        "remove")
+            echo "Removing..."
             ;;
         "Quit")
             break
