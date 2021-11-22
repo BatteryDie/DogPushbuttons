@@ -8,10 +8,10 @@ do
     case $opt in
         "lxde")
             echo "Exec=lxterminal --command”/bin/bash -c ‘sudo python3 $currentFile/main_pi.py; /bin/bash’”" > ~/.config/autostart/DogPushbuttons.desktop
-            echo "startup for lxde is installed. It will start in LXDE terminal when desktop is loaded"
+            echo "Startup for lxde is installed. It will start in LXDE terminal when desktop is loaded."
             ;;
         "crontab")
-            echo "startup for crontab is installed. It will start during "
+            echo "Startup for crontab is installed. It will start during boot."
             ;;
         "remove")
             echo "Removing..."
