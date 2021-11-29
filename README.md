@@ -17,22 +17,26 @@ Assistant Technician: **Luca Jones**
 ![Screenshot 2021-11-15 231714](https://user-images.githubusercontent.com/13942195/141911259-a4ff4fc9-f957-4ac4-a3b7-12223d736c2f.png)
 
 ## Setup
-1. Install Pushover for Python, gpiozero and PyGame modules from Python package manager:
+1. Update Raspberry Pi OS and Python
+```shell
+sudo apt update && apt upgrade
+```
+2. Install Pushover for Python, gpiozero and PyGame modules from Python package manager:
 ```shell
 python -m pip install -U python-pushover gpiozero pygame
 ```
-2. To create startup in GUI. Add line on /etc/xdg/lxsession/LXDE-pi/autostart: 
+3. To create startup in GUI. Add line on /etc/xdg/lxsession/LXDE-pi/autostart: 
 ```shell
 @lxterminal -e python /home/pi/DogPushbuttons-main/main_pi.py
 ```
 
-3. Sign up [Pushover](https://pushover.net/) and create application for API token and User token.
+4. Sign up [Pushover](https://pushover.net/) and create application for API token and User token.
 
-4. Download zip of this repo for Raspberry Pi:
+5. Download zip of this repo for Raspberry Pi:
 
 ![Download zip](https://user-images.githubusercontent.com/13942195/142032300-4aa0cc3d-84c8-4ba0-962f-1a33072dd566.png)
 
-5. Edit the script with new API token and User token. Example:
+6. Edit the script with new API token and User token. Example:
 ```python
 client = Client("us7vsksv12zazdf6hwu2dt8a4wy743f", api_token="afdsfsdfwzxczt1426xjnp1waj4")
 ```
