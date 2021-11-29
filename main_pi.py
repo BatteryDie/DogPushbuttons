@@ -11,9 +11,10 @@ out_button = Button(27)
 water_button = Button(22)
 food_button = Button(23)
 play_button = Button(24)
+localtime = time.asctime( time.localtime(time.time()) ) # Convert into full time and date
 
 while True:
-    localtime = time.asctime( time.localtime(time.time()) )
+    time.sleep(0.1) # reduce CPU usage and overheat on raspberry pi!
     if bath_button.is_pressed:
         try:
             print(localtime+" Bathroom!")
