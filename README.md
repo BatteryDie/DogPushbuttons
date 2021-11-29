@@ -21,7 +21,7 @@ Assistant Technician: **Luca Jones**
 ```shell
 python -m pip install -U python-pushover gpiozero pygame
 ```
-2. To create startup in GUI. Edit and add line on /etc/xdg/lxsession/LXDE-pi/autostart: 
+2. To create startup in GUI. Add line on /etc/xdg/lxsession/LXDE-pi/autostart: 
 ```shell
 @lxterminal -e python /home/pi/DogPushbuttons-main/main_pi.py
 ```
@@ -34,12 +34,17 @@ python -m pip install -U python-pushover gpiozero pygame
 
 5. Edit the script with new API token and User token. Example:
 ```python
-client = Client("ur7vskev12zazdf6twu9dt5a4wy7pf", api_token="aqdqexpqcpagiazt1a386xjnp4mgw4")
+client = Client("us7vsksv12zazdf6hwu2dt8a4wy743f", api_token="afdsfsdfwzxczt1426xjnp1waj4")
 ```
 
-## Manually run the script on Raspberry Pi
+## Manually run the script
+On Raspberry Pi with installed and connected buttons
 ```shell
 python main_pi.py
+```
+On PC without buttons
+```shell
+python main_test.py
 ```
 
 ## Troubleshooting
