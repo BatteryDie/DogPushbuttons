@@ -45,13 +45,13 @@ client = Client("us7vsksv12zazdf6hwu2dt8a4wy743f", api_token="afdsfsdfwzxczt1426
 ```
 
 ## Manually run the script
-On Raspberry Pi with installed and connected buttons
+On Raspberry Pi with pushbutton switches
 ```shell
 python main_pi.py
 ```
-On PC without buttons
+On PC with keyboard
 ```shell
-python main_test.py
+python main_pc.py
 ```
 
 ## Troubleshooting
