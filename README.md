@@ -29,9 +29,9 @@ python -m pip install -U python-pushover gpiozero pygame
 ```shell
 @lxterminal -e python /home/pi/DogPushbuttons-main/main_pi.py
 ```
-Example:
 ![2021-11-29-154400_655x417_scrot](https://user-images.githubusercontent.com/13942195/143940248-8aafcc82-60cd-4e8c-9f8e-0be8a2938afd.png)
 
+If you preferred startup in headless or commandline intead of GUI: [Click here](https://www.makeuseof.com/how-to-run-a-raspberry-pi-program-script-at-startup/).
 
 4. Sign up [Pushover](https://pushover.net/) and create application for API token and User token.
 
