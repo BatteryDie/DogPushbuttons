@@ -4,7 +4,7 @@ import time
 import pygame  # For playing sound
 pygame.init() # Load pygame - no gui
 
-client = Client("ur7vskev12zazdf6twu9dt5a4wy7pf", api_token="aqdqexpqcpagiazt1a386xjnp4mgw4")
+client = Client("USER_HERE", api_token="TOKEN_HERE")
 
 bath_button = Button(17)
 out_button = Button(27)
