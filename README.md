@@ -27,9 +27,9 @@ python -m pip install -U python-pushover gpiozero pygame
 ```
 3. To create startup in GUI. Add line on /etc/xdg/lxsession/LXDE-pi/autostart: 
 ```shell
-@lxterminal -e python /home/pi/DogPushbuttons-main/main_pi.py
+@lxterminal -e /home/pi/DogPushbuttons-main/startup.sh
 ```
-![2021-11-29-154400_655x417_scrot](https://user-images.githubusercontent.com/13942195/143940248-8aafcc82-60cd-4e8c-9f8e-0be8a2938afd.png)
+![2021-11-29-164412_655x417_scrot](https://user-images.githubusercontent.com/13942195/143947869-1445eee0-b3c8-4882-b927-442ee33d1fec.png)
 
 If you preferred startup in headless or commandline intead of GUI: [Click here](https://www.makeuseof.com/how-to-run-a-raspberry-pi-program-script-at-startup/).
 
