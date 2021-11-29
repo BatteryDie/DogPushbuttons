@@ -33,7 +33,7 @@ while True:
         time.sleep(1.0)
     if food_button.is_pressed:
         print(localtime+" Food!")
-        my_sound = pygame.mixer.Sound('sounds/food.mp3')
+        my_sound = pygame.mixer.Sound('sounds/play.mp3')
         my_sound.play()
         client.send_message("Food!", title="Dog Pushbuttons")
         time.sleep(1.0)
