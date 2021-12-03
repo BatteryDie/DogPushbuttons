@@ -19,7 +19,7 @@ Assistant Technician: **Luca Jones**
 ## Setup
 1. Update Raspberry Pi OS and Python
 ```shell
-sudo apt update && apt upgrade
+sudo apt update && sudo apt upgrade
 ```
 2. Install Pushover for Python, gpiozero and PyGame modules from Python package manager:
 ```shell
@@ -57,5 +57,5 @@ python main_pc.py
 ## Troubleshooting
 If you got Pygame error such as "No Mixer module found". Try this:
 ```shell
-apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0
+sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0
 ```
