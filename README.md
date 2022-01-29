@@ -1,6 +1,9 @@
 # DogPushbuttons
 Welcome to Dog Pushbutton from Capstone Fall 2021 Team. This is repository contains designed piece of software for Dog pushbuttons.
 
+![image](https://user-images.githubusercontent.com/13942195/151671405-c9f3733e-e4a4-4155-93ae-dae64eb865e1.png)
+
+
 ## Features 
 - Receive command from pushbutton though Raspberry Pi GPIO
 - Send alert to mobile and computer via [Pushover](https://pushover.net/)
@@ -15,6 +18,8 @@ Assistant Technician: **Luca Jones**
 
 ## Diagram
 ![Screenshot 2021-11-15 231714](https://user-images.githubusercontent.com/13942195/141911259-a4ff4fc9-f957-4ac4-a3b7-12223d736c2f.png)
+
+![image](https://user-images.githubusercontent.com/13942195/151671380-f9e13919-49eb-4c2b-bd02-201a0560aefd.png)
 
 ## Setup
 1. Update Raspberry Pi OS and Python
