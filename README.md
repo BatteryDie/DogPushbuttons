@@ -9,6 +9,10 @@ Welcome to Dog Pushbutton from Capstone Fall 2021 Team. This is repository conta
 - Send alert to mobile and computer via [Pushover](https://pushover.net/)
 - Play sound though Raspberry Pi output headphone port
 
+## Pushover on iOS and watchOS 
+
+![image](https://user-images.githubusercontent.com/13942195/151671487-fd559d3c-c28f-4d1a-984e-66ece1a4cc75.png) ![image](https://user-images.githubusercontent.com/13942195/151671482-972cbfe7-3cfe-4c15-9c3d-d7531e199de4.png)
+
 ## Team
 Client: **Professor Karen Beiter**
 
